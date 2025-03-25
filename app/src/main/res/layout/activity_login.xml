@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/login"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="30mm"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Correo Electronico"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="30mm"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="Contraseña"/>
+
+    <TextView
+        android:id="@+id/etError"
+        android:layout_width="30mm"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="35mm"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Entrar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnGoRegister"
+        android:layout_width="20mm"
+        android:layout_height="50dp"
+        android:text="Registrar"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

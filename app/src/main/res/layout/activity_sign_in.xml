@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="90dp"
+        android:text="Registrate!"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/etrMail"
+        android:layout_width="30mm"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Correo Electronico"/>
+
+    <EditText
+        android:id="@+id/etrPassword"
+        android:layout_width="30mm"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="Contraseña"/>
+
+    <EditText
+        android:id="@+id/etrConfirmPassword"
+        android:layout_width="30mm"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="Confirmar Contraseña"/>
+
+    <TextView
+        android:id="@+id/etrError"
+        android:layout_width="30mm"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="35mm"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Registrar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

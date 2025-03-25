@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48883961193",
+    "project_id": "practica10-galanpablo",
+    "storage_bucket": "practica10-galanpablo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48883961193:android:a0cf26e7c626c5b6d241f8",
+        "android_client_info": {
+          "package_name": "itson.com.edu.practica10_galanpablo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBliEWx5IxjIlaYd5KYQ3eFe3vk4N-f1As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
